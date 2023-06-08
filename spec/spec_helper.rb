@@ -12,10 +12,6 @@ require 'venme'
 require 'faker'
 require 'pry'
 
-Rollbar.configure do |config|
-  config.enabled = false
-end
-
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
