@@ -12,5 +12,4 @@ COPY lib/venme/version.rb /gem/lib/venme/version.rb
 RUN gem update --system && gem install bundler && bundle install --jobs=3 --retry=3 && \
     rm -rf /usr/local/bundle/cache
 
-COPY . /gem
-RUN gem build venme
+COPY . .

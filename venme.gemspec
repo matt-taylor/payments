@@ -3,14 +3,14 @@
 require_relative "lib/venme/version"
 
 Gem::Specification.new do |spec|
-  spec.name    = "venmo-connect"
+  spec.name    = "venme"
   spec.version = Venme::VERSION
   spec.authors = ["Matt Taylor"]
   spec.email   = ["mattius.taylor@gmail.com"]
 
-  spec.summary     = "This is a hybrid mutant of Faraday and Rollbar. Inject Rollbar into Customized Faraday returns"
-  spec.description = "Add Rollbar to Faraday middleware easily and customizable"
-  spec.homepage    = "https://github.com/matt-taylor/rollday"
+  spec.summary     = "PlaceHolder"
+  spec.description = "PlaceHolder"
+  spec.homepage    = "https://github.com/matt-taylor/venme"
   spec.license     = "MIT"
 
   spec.required_ruby_version = Gem::Requirement.new(">= 2.7")
