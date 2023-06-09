@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    venme (0.1.0)
+    payments (0.1.0)
       class_composer
       faraday
 
@@ -58,13 +58,13 @@ PLATFORMS
 
 DEPENDENCIES
   faker
+  payments!
   pry
   pry-byebug
   rake (~> 12.0)
   rspec (~> 3.0)
   rspec_junit_formatter
   simplecov
-  venme!
 
 BUNDLED WITH
    2.4.13

@@ -1,6 +1,6 @@
 .PHONY: bash build bundle rspec
 
-APP_NAME?=venme
+APP_NAME?=payments
 
 build: #: Build the containers that we'll need
 	docker-compose build --pull

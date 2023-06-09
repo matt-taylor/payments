@@ -2,7 +2,7 @@
 
 require "class_composer"
 
-module Venme
+module Payments
   class Configuration
   end
 end

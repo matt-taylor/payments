@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  venme:
+  payments:
     command: tail -f /dev/null
     build:
       context: .
@@ -10,6 +10,7 @@ services:
       - .:/gem
       - ..:/local
       - bundle-cache:/usr/local/bundle:delegated
+    env_file: .env
 
 volumes:
   bundle-cache:

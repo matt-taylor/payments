@@ -8,7 +8,7 @@ if ENV['CI'] == 'true'
   end
 end
 
-require 'venme'
+require 'payments'
 require 'faker'
 require 'pry'
 

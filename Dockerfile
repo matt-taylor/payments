@@ -5,8 +5,8 @@ RUN cd /tmp && curl -L --output ghr.tar.gz https://github.com/tcnksm/ghr/release
 WORKDIR /gem
 COPY Gemfile /gem/Gemfile
 
-COPY venme.gemspec /gem/venme.gemspec
-COPY lib/venme/version.rb /gem/lib/venme/version.rb
+COPY payments.gemspec /gem/payments.gemspec
+COPY lib/payments/version.rb /gem/lib/payments/version.rb
 
 
 RUN gem update --system && gem install bundler && bundle install --jobs=3 --retry=3 && \

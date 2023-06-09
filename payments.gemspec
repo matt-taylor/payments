@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/venme/version"
+require_relative "lib/payments/version"
 
 Gem::Specification.new do |spec|
   spec.name    = "payments"
-  spec.version = Venme::VERSION
+  spec.version = Payments::VERSION
   spec.authors = ["Matt Taylor"]
   spec.email   = ["mattius.taylor@gmail.com"]
 

@@ -1,4 +1,4 @@
-# Venme
+# Payments
 
 Place holder
 
@@ -8,7 +8,7 @@ Place holder
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'venme'
+gem 'payments'
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ To install this gem onto your local machine, run `bundle exec rake install`.
 
 To release a new version:
 
-1. Update the version number in [lib/venme/version.rb]
+1. Update the version number in [lib/payments/version.rb]
 2. Update [CHANGELOG.md]
 3. Merge to the main branch. This will trigger an automatic build in CircleCI
    and push the new gem to the repo.
@@ -35,5 +35,5 @@ To release a new version:
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-https://github.com/matt-taylor/venme.
+https://github.com/matt-taylor/payments.
 
