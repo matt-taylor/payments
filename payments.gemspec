@@ -3,14 +3,14 @@
 require_relative "lib/venme/version"
 
 Gem::Specification.new do |spec|
-  spec.name    = "venme"
+  spec.name    = "payments"
   spec.version = Venme::VERSION
   spec.authors = ["Matt Taylor"]
   spec.email   = ["mattius.taylor@gmail.com"]
 
   spec.summary     = "PlaceHolder"
   spec.description = "PlaceHolder"
-  spec.homepage    = "https://github.com/matt-taylor/venme"
+  spec.homepage    = "https://github.com/matt-taylor/payments"
   spec.license     = "MIT"
 
   spec.required_ruby_version = Gem::Requirement.new(">= 2.7")
